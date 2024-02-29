@@ -28,6 +28,26 @@ pip install openpyxl pandas
 
 Ensure these libraries are installed before proceeding with running the script.
 
+
+## Extracting Workday Absences to Excel
+
+Before running the script, you need to extract your absence records from Workday into an Excel file. Follow these steps to perform the extraction:
+
+1. Log in to your Workday account.
+
+2. Go to **View all Apps**. This can typically be found on your Workday dashboard or home page.
+
+3. Select **Absence** from the list of applications.
+
+4. Inside the Absence application, navigate to **View** > **My Absence** to view your absence records.
+
+5. To export your absences, look for the export icon (![export icon](icon_extract_xls.png)) typically located at the top right corner or near your absence summary. Click on this icon to download your absence records in Excel format.
+
+6. Save the downloaded Excel file in a known directory, as you will need to specify its path when running the script.
+
+Proceed to the "Running the Script" section after you have successfully exported and saved your absence records.
+
+
 ## Running the Script
 
 Follow these steps to run the script:
