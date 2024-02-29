@@ -13,6 +13,21 @@ Before running the script, ensure you have the following:
 
 3. The `workday_extract.xlsx` Excel file that contains the data you want to analyze. Place this file in a known directory.
 
+## Dependencies Installation
+
+Before running the script, you need to install the required Python libraries. The script requires the following dependencies:
+
+- `openpyxl`: A library to read/write Excel 2010 xlsx/xlsm/xltx/xltm files.
+- `pandas`: A fast, powerful, flexible and easy to use open source data analysis and manipulation tool.
+
+You can install these dependencies using pip by running the following command in your terminal:
+
+```bash
+pip install openpyxl pandas
+```
+
+Ensure these libraries are installed before proceeding with running the script.
+
 ## Running the Script
 
 Follow these steps to run the script:
@@ -42,28 +57,6 @@ After running the script, it will process the data from the `workday_extract.xls
 
 If the script runs successfully, you should see output messages in the terminal indicating the progress and completion of the data processing. If there are any errors, they will be displayed in the terminal as well.
 
-## Troubleshooting
-
-- If you encounter a `python3: command not found` error, ensure that Python 3 is installed correctly and that the installation directory is included in your system's PATH environment variable.
-
-- If you receive file not found errors, check that the path to the `workday_extract.xlsx` file is correct and that the file exists in the specified location.
-
-For more detailed information or assistance, refer to the script documentation or contact the script developer.
-
-## Dependencies Installation
-
-Before running the script, you need to install the required Python libraries. The script requires the following dependencies:
-
-- `openpyxl`: A library to read/write Excel 2010 xlsx/xlsm/xltx/xltm files.
-- `pandas`: A fast, powerful, flexible and easy to use open source data analysis and manipulation tool.
-
-You can install these dependencies using pip by running the following command in your terminal:
-
-```bash
-pip install openpyxl pandas
-```
-
-Ensure these libraries are installed before proceeding with running the script.
 
 ## Example of Script Output
 
@@ -88,3 +81,12 @@ Below is an example of the output you might see after running the script. This i
 ```
 
 This output is a simplified example and may vary depending on your specific data and script configurations.
+
+
+## Troubleshooting
+
+- If you encounter a `python3: command not found` error, ensure that Python 3 is installed correctly and that the installation directory is included in your system's PATH environment variable.
+
+- If you receive file not found errors, check that the path to the `workday_extract.xlsx` file is correct and that the file exists in the specified location.
+
+For more detailed information or assistance, refer to the script documentation or contact the script developer.
